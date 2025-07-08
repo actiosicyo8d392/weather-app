@@ -33,7 +33,8 @@ interface WeatherData {
 }
 
 // API Configuration
-const API_KEY: string = "d03bf17101ed4078bf9113758252806";
+const API_KEY: string = ""; // add you api key
+// Use 'let' only if you need to reassign, otherwise ensure this is declared only once in your project.
 const BASE_URL: string = "http://api.weatherapi.com/v1/current.json";
 
 // Application State
